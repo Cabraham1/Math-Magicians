@@ -22,6 +22,20 @@ function Calculator() {
             ÷
           </button>
         </div>
+        <div className="box-two">
+          <button type="button" className="btn number">
+            7
+          </button>
+          <button type="button" className="btn number">
+            8
+          </button>
+          <button type="button" className="btn number">
+            9
+          </button>
+          <button type="button" className="btn number operator">
+            *
+          </button>
+        </div>
         
         </div>
       </div>
