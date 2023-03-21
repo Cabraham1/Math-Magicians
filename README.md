@@ -83,6 +83,14 @@ In order to install a local version of this project and please do the following 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+- [🔭 Future Features](#future-features)
+  - Add calculation functionality
+  - Add display answer functionality
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
