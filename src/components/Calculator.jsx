@@ -1,5 +1,5 @@
 import React from 'react';
-import './Calculator.css';
+import './Calculator.css'
 
 function Calculator() {
   return (
@@ -50,7 +50,31 @@ function Calculator() {
             -
           </button>
         </div>
-        
+        <div className="box-four">
+          <button type="button" className="btn number">
+            1
+          </button>
+          <button type="button" className="btn number">
+            2
+          </button>
+          <button type="button" className="btn number">
+            3
+          </button>
+          <button type="button" className="btn number operator">
+            +
+          </button>
+        </div>
+        <div className="box-five">
+          <button type="button" className="btn number zero">
+            0
+          </button>
+          <button type="button" className="btn number dot">
+            .
+          </button>
+
+          <button type="button" className="btn number operator">
+            =
+          </button>
         </div>
       </div>
     </div>
