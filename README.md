@@ -1,102 +1,108 @@
+<a name="readme-top"></a>
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+<div align="center">
 
-# Math-Magicians
+  <h3><b>Math-Magicians</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Yummy Meal] <a name="about-project"></a>
 
 "Math-Magician" is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations, generate and read random math-related quotes and also tweet the quote.
 
-Our goal here is to Build a single page web application for mathematics weebs using the React library 
+Our goal here is to Build a single page web application for mathematics weebs using the React library
+## Project requirements 
+Please find project requirements [here](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/project_setup.md). 
 
-### Features implemented so far are:
+## Getting started
 
-- Project Setup with React Installations
-
-## Built With
-
-- React 
-- Linters
-## Live Demo
-[Live demo]()
-
+To get a local copy up and running follow these simple example steps:
 
 ### Prerequisites
 
-The basic requirements for building the executable are:
+- A device that support running browser applications.
+- access to internet connection.
 
-- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
-- Have a good knowledge on how to parse UI designs
-- Have VSCode or other text editor installed. [Link to download VSCode](https://code.visualstudio.com/download)
-- Install node package. [Link to download node](https://nodejs.org/en/download/)
-- Have git installed.[Link to download git](https://git-scm.com/downloads)
-- Create a github repository.
-## Getting Started
+### Setup
 
-To get a local copy up and running follow these simple example steps.
-#### Cloning the project
+#### View pages from the browser
 
-```
-git clone  git@github.com:Cabraham1/Math-Magicians.git <Your-Build-Directory>
+- If you just want to check the webpage/webapp, you have it available on the live demo link.
 
-```
+#### Install locally the code of the application
 
-```
-cd <Your-Build-Directory> 
+In order to install a local version of this project and please do the following steps:
+- Install the latest version of any code editor.
+- install the latest version of GIT.
+- open your terminal
+- Go to the [repository](git@github.com:Cabraham1/Math-Magicians.git)  and clone it with `git clone git@github.com/cabraham1/capstone-project.git' .
+- open the repository cloned with `cd math-magicians`
+- if your code editor is VsCode type `code .`
+- and enjoy!
 
-```
+## Technologies Used
 
-## Getting packages and dependencies
-To get all package modules required to build the project run:
-```
-npm install
-```
-every package module required to build the project is listed in the package.json file. this is used as a reference to get all dependencies.
+- React
+- GitHub
+- VsCode
+- nodejs
+- GIT
 
-## Building 
+## 👥 Authors <a name="authors"></a>
 
-To build the project run:
-```
-npm run build
-```
-after you run this sucessfully you'd locate the build from in the ```build``` folder located from the parent directory of the project.
+> Mention all of the collaborators of this project.
 
-## Running
-
-To run the program on a browser through a server run this command in your cli
-```
-npm start
-```
-This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
-
-## Run tests
-
-For tracking linters errors locally, you need to follow these steps:
-
-- For tracking linter errors in CSS file run:
-``` 
-npx stylelint "**/*.{css,scss}"
-```
-- For tracking linter errors in Javascript file run:
-```
-npx eslint .
-```
-## 🤝 Contributing
-
-Feel free to check the [issues page](https://github.com/Cabraham1/Math-Magicians/issues).
-
-## Author
-👤 **Ojesanmi Elizabeth Oyin**
+👤 **Abraham Christopher**
 
 - GitHub: [@githubhandle](https://github.com/Cabraham1)
+- Twitter: [@twitterhandle](https://twitter.com/_cabraham)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/abrahamchristopher)
 
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abrahamchristopher/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Please give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
+- Hat tip to anyone contributed one way or the other.
+- Inspiration
+- etc
 
-## 📝 License
+## License
+<!-- LICENSE -->
 
-This project is [MIT](./MIT.md) licensed.
+## 📝 License <a name="license"></a>
+
+This project is. [MIT](./MIT.md) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
