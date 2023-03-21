@@ -36,6 +36,20 @@ function Calculator() {
             *
           </button>
         </div>
+        <div className="box-three">
+          <button type="button" className="btn number">
+            4
+          </button>
+          <button type="button" className="btn number">
+            5
+          </button>
+          <button type="button" className="btn number">
+            6
+          </button>
+          <button type="button" className="btn number  operator">
+            -
+          </button>
+        </div>
         
         </div>
       </div>
