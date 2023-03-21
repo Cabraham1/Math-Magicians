@@ -1,36 +1,8 @@
 <a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
+![](https://img.shields.io/badge/Microverse-blueviolet)
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Math-Magicians</b></h3>
 
 </div>
 
@@ -40,249 +12,97 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Yummy Meal] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+"Math-Magician" is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations, generate and read random math-related quotes and also tweet the quote.
 
-**[your_project__name]** is a...
+Our goal here is to Build a single page web application for mathematics weebs using the React library
+## Project requirements 
+Please find project requirements [here](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/project_setup.md). 
 
-## 🛠 Built With <a name="built-with"></a>
+## Getting started
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+To get a local copy up and running follow these simple example steps:
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- A device that support running browser applications.
+- access to internet connection.
 
 ### Setup
 
-Clone this repository to your desired folder:
+#### View pages from the browser
 
-<!--
-Example commands:
+- If you just want to check the webpage/webapp, you have it available on the live demo link.
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+#### Install locally the code of the application
 
-### Install
+In order to install a local version of this project and please do the following steps:
+- Install the latest version of any code editor.
+- install the latest version of GIT.
+- open your terminal
+- Go to the [repository](git@github.com:Cabraham1/Math-Magicians.git)  and clone it with `git clone git@github.com/cabraham1/capstone-project.git' .
+- open the repository cloned with `cd math-magicians`
+- if your code editor is VsCode type `code .`
+- and enjoy!
 
-Install this project with:
+## Technologies Used
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
+- React
+- GitHub
+- VsCode
+- nodejs
+- GIT
 
 ## 👥 Authors <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Abraham Christopher**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Cabraham1)
+- Twitter: [@twitterhandle](https://twitter.com/_cabraham)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/abrahamchristopher)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+## Show your support
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Please give a ⭐️ if you like this project!
 
-<!-- SUPPORT -->
+## Acknowledgments
 
-## ⭐️ Show your support <a name="support"></a>
+- Hat tip to anyone contributed one way or the other.
+- Inspiration
+- etc
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+## License
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is. [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
