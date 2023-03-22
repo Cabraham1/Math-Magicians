@@ -1,8 +1,7 @@
-<a name="readme-top"></a>
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
 <div align="center">
 
-  <h3><b>Math-Magicians</b></h3>
+  <h3><b>Math magician</b></h3>
 
 </div>
 
@@ -12,56 +11,94 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Yummy Meal] <a name="about-project"></a>
+#📖 [math magician] <a name="about-project"></a>
 
-"Math-Magician" is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations, generate and read random math-related quotes and also tweet the quote.
+**[math magician]** is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations, generate and read random math-related quotes and also tweet the quote.
 
 Our goal here is to Build a single page web application for mathematics weebs using the React library
-## Project requirements 
-Please find project requirements [here](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/project_setup.md). 
 
-## Getting started
+## 🛠 Built With <a name="built-with"></a>
 
-To get a local copy up and running follow these simple example steps:
+- React 
+- Linters
 
-### Prerequisites
+### Tech Stack <a name="tech-stack"></a>
 
-- A device that support running browser applications.
-- access to internet connection.
+> 
 
-### Setup
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-#### View pages from the browser
+<!-- Features -->
 
-- If you just want to check the webpage/webapp, you have it available on the live demo link.
+### Key Features <a name="key-features"></a>
 
-#### Install locally the code of the application
+>to do mathmatic calculations
 
-In order to install a local version of this project and please do the following steps:
-- Install the latest version of any code editor.
-- install the latest version of GIT.
-- open your terminal
-- Go to the [repository](git@github.com:Cabraham1/Math-Magicians.git)  and clone it with `git clone git@github.com/cabraham1/capstone-project.git' .
-- open the repository cloned with `cd math-magicians`
-- if your code editor is VsCode type `code .`
-- and enjoy!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+
+## Getting packages and dependencies
+To get all package modules required to build the project run:
+```
+npm install
+```
+every package module required to build the project is listed in the package.json file. this is used as a reference to get all dependencies.
+
+## Building 
+
+To build the project run:
+```
+npm run build
+```
+after you run this sucessfully you'd locate the build from in the ```build``` folder located from the parent directory of the project.
+
+## Running
+
+To run the program on a browser through a server run this command in your cli
+```
+npm start
+```
+This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
+
+## Run tests
+
+For tracking linters errors locally, you need to follow these steps:
+
+- For tracking linter errors in CSS file run:
+``` 
+npx stylelint "**/*.{css,scss}"
+```
+- For tracking linter errors in Javascript file run:
+```
+npx eslint .
+```
 ## Technologies Used
 
 - React
