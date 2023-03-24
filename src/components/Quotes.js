@@ -2,29 +2,38 @@ import React, { useState, useEffect, useRef } from 'react';
 import './Quotes.css';
 
 const Quote = () => {
-  const [quotes, setQuotes] = useState('Loading...');
+  const [quotes, setQuotes] = useState('');
+  const [hasError, setHasError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const textRef = useRef();
-  const colors = ['#ffff00', '#90ee90', '#ffa500', '#ff68ff', '#a9a9e7'];
 
-  const getQuotes = () => {
-    const category = 'happiness';
-    const apiKey = '8vBF9RpWFlSYRkxXze3U/A==bR662D4w38AWnlA5';
-    fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
-      method: 'GET',
-      headers: { 'X-Api-Key': apiKey },
-      contentType: 'application/json',
-    }).then((res) => res.json())
-      .then((data) => {
-        setQuotes(data[0]);
-      });
-  };
   useEffect(() => {
+    const getQuotes = async () => {
+      setIsLoading(true);
+      try {
+        const category = 'happiness';
+        const apiKey = '8vBF9RpWFlSYRkxXze3U/A==bR662D4w38AWnlA5';
+        fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
+          method: 'GET',
+          headers: { 'X-Api-Key': apiKey },
+          contentType: 'application/json',
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            setQuotes(data[0]);
+          });
+      } catch (error) {
+        setHasError(true);
+      }
+      setIsLoading(false);
+    };
     getQuotes();
   }, []);
 
-  useEffect(() => {
-    textRef.current.style.color = colors[Math.floor(Math.random() * colors.length)];
-  }, [quotes]);
+  if (hasError || Number(quotes.length) === 0) return <div>Something went wrong!</div>;
+
+  if (isLoading) return <div>Loading...</div>;
+
   return (
     <>
       <div className="quote">
