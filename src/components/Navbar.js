@@ -10,7 +10,7 @@ const Navbar = () => {
     },
     {
       id: 2,
-      path: '/calculate',
+      path: '/calculator',
       text: 'Calculator',
     },
 

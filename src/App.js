@@ -17,7 +17,6 @@ function App() {
           <Route path="/quotes" element={<Quotes />} />
         </Routes>
       </BrowserRouter>
-      <Calculator />
     </div>
   );
 }
