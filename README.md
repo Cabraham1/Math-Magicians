@@ -120,9 +120,10 @@ npx eslint .
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-- [🔭 Future Features](#future-features)
-  - Add calculation functionality
-  - Add display answer functionality
+## [🔭 Future Features](#future-features)
+  - Hosting the App on gh-pages.
+  - Add background animations.
+  - Add css loading on quote components.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
