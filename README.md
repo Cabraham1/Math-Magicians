@@ -37,6 +37,8 @@
 
 Our goal here is to Build a single page web application for mathematics weebs using the React library
 
+[Live Demo](https://math-magician1.onrender.com)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - React 
